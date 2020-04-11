@@ -159,7 +159,7 @@ window.onload = () => {
       document.querySelector('.textarea').selectionEnd = startText;
     };
   
-    document.querySelector('.keyboard').addEventListener('click', (event) => {
+    document.querySelector('.keyboard').addEventListener('mousedown', (event) => {
       if (event.target.classList.contains('key')) {
         document.querySelector('.textarea').focus();
   
